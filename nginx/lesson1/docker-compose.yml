@@ -1,0 +1,7 @@
+services:  # 定义服务
+  web:  # 定义 web 服务
+    image: nginx:latest  # 指定容器镜像
+    ports:
+      - "80:80"  # 映射宿主机端口 80 到容器端口 80
+  redis:  # 定义 redis 服务
+    image: redis:latest  # 指定容器镜像
