@@ -1,2 +1,9 @@
 .idea
 SQLAlchemy/lesson1/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Tool/console artifacts
+CONOUT$
